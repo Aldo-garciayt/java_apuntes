@@ -7,7 +7,7 @@
  *
  * @author cm167
  */
-public class Main3 {
+public class Main {
 
     /**
      * @param args the command line arguments
