@@ -1,0 +1,9 @@
+	System.out.print(s:¨introducir un numero¨);
+	n1= Entrada.int();
+	System.out.print(s¨introduce el segumdo numero¨);
+	n2= Entrada.int();
+
+	if(n1==n2)
+		System.out.println(x:¨son iguales¨);
+	else
+		System.out.println(x:¨no son iguales¨);

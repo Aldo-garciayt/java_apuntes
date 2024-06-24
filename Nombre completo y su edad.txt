@@ -1,0 +1,18 @@
+	import.java.until.Scanner;
+
+	Public class Main {
+
+		public static void main(String{} args) {
+		Scanner sc =new Scanner ( source:System.in)
+		String cadena;
+		Int numero;
+		System.out.println( x:"Introducir nombre y apellido completo:");	
+		Cadena = sc.nextLine ();
+		System.out.println("Su nombre y apellido es"+cadena)
+		System.out.println( x:"Introducir edad ");
+		numero =sc.nextInt();
+		System.out.println("Su edad es"+ numero)
+
+		System.out.println("el triple de " + numero + "->" + 3*numero)
+		System.out.println("el cuadruple de " + numero + "->" + 4*numero)
+		System.out.println("el quintuple de " + numero + "->" + 5*numero)		

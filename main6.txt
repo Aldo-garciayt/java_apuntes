@@ -1,0 +1,11 @@
+	Scanner entrada = new Scanner (System.in)
+
+	int horas;
+	int sueldo;
+	
+	System.out.println(x:¨cuatas horas laboraste¨);
+	horas = entrada.nextInt();
+
+	sueldo = horas*120;
+
+	System.out.println(¨tu sueldo es:¨+ sueldo );

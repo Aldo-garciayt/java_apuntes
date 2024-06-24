@@ -1,0 +1,242 @@
+  	private static double pagoporhorasextra;//atributo de clase
+	private string nif;
+	private string nombre;
+	private double sueldobase;
+	private int horasextra;
+	private double tipoIRPF;
+	private char casado; //S&N
+	private int numerohijos;
+
+	public Empleado() {
+	}
+	
+	public Empleado (String nif) {
+		this.nif=nif;
+	}
+
+	public char getCasado () {
+		return casado;
+	}
+	
+	public void setCasado (char casado) {
+		this.casado=casado;
+	}
+
+	public int getHorasExtras () {
+		return horasExtras;
+	}
+
+	public void setHorasExtra (int horasExtras) {
+		this.horasExtras= horasExtras;
+	}
+
+	public String getNif () {
+		return nif;
+	}
+
+	public void setNif (String nif) {
+		this.nif=nif;
+	}
+
+	public String getNombre (String nombre) {
+		return nombre;
+	}
+
+	public void setNombre (String nombre) {
+		this.nombre=nombre;
+	}
+
+	public int getNumeroHijos () {
+		return numeroHijos;
+	}
+
+	public void setNumeroHijos (int numeroHijos) {
+		this.numeroHijos = numeroHijos;
+	}
+
+	public double getSueldoBase () {
+		return sueldoBase;
+	}
+
+	public void setSueldoBase (double sueldoBase) {
+		this.sueldoBase = sueldoBase;
+	}
+
+	public double getTipoIRPF() {
+		return tipoIRPF;
+	}
+	
+	public void setTipoIRPF(double tipo IRPF) {
+		this.tipoIRPF = TPOIRPF;
+	}
+
+	//METODOS GET/SET PARA EL ATRIBUTO STATIC
+	public static double getPagoPorHorasExtra() {
+		return PagoPorHorasExtra ;
+	}
+
+	public static void setPagoPorHorasExtra(double  pagoPorHorasExtra) {
+		Empleado.PagoPorHorasExtras = pagoPorHorasExtras;
+	}
+
+	//Calcular el imorte de las horas extra
+	pubic double calcularImporteHorasExtras() {
+		return horasExtras * pagoPorHorasExtra;
+	}
+
+	//CALCUAR EL SUELDO BRUTO
+	public double calcularSueldoBruto() {
+		return sueldoBase + calcularImporteHorasExtras() {
+	}
+	
+	//calcular el importe de las RETENCIO IRPF
+	public double calcularRetencionIrpf() {
+		double tipo = tipoIRPF;
+		if(casado =="s" casado == "s" ) {
+		tipo = tipo - 2;//un punto menos si esta casado
+	}
+		tipo = tipo - numeroHijos;//un punto menos por cada hijo
+
+		if(tipo < 0) {
+			tipo =0;
+	}
+		return calcularSueldoBruto()*tipo/100;
+}
+	//Mostrar los datos de un trabajador
+	public String toString() {
+		StringBuilder sb = new StringBuilder ();
+		sb.append(str:"Nif:");
+			sb.append(str:nif);
+		sb.append(str:"sueldo base:");
+			sb.append(str:sueldo base);
+		sb.append(str:"Horas Extras:");
+			sb.append(str:Horas Extras);
+		sb.append(str:"tipo IRPF:");
+			sb.append(str:tipoIRPF);
+		sb.append(str:"Casado:");
+			sb.append(str:Casado);
+		sb.append(str:"Numero Hijos:");
+			sb.append(str:NumeroHijos);
+	return sb. toString() 
+
+
+Public class Empleado (
+	final static int MAXIMO EMPLEADOS = 20;
+	static Empleado [] empleados =new Empleado [MAXIMO EMPLEADOS];
+	static int indice = 0;
+	static Scanner sc =new Scanner (source :System
+
+
+double importe;
+Empleado e;
+leerEmpleados();
+if (numeroDeEmpleados()> 0 ) {
+
+	//mostrar empleados 
+	System.out.println(x:"empleados introducido");
+	mostrar ();
+
+	importe = leerImporteHorasExtras();
+	
+	//asignar el atributo estatico pagoPorHorasExtra
+	Empleado.setPagoPorHoraExtras(importe);
+
+	//Calcular el empleado que mas cobra
+	e= empleadoQueMasCobra ();
+	System.out.println(x:"empleado que mas cobra");
+	System.out.println(x:e);
+	Sytem.out.printf(format:"sueldo :%2 & %n", args:e.calcularSueldo());
+
+	//Calcular el empleado que menos cobra
+	e = empleadosQueMenosCobra ();
+	System.out.println(x:"empleado que menos cobra");
+	System.out.println(x:e);
+	Sytem.out.printf(format:"sueldo :%2 & %n", args:e.calcularSueldo());
+
+	//calcular empleado que cobra mas por horas extras
+	e=empleadosQueMasCobraPorHorasExtras();
+	System.out.println(x:"empleado que mas cobra por horas extras");
+	System.out.println(x:e);
+	Sytem.out.printf(format:"total horas extras :%2 & %n", args:e.calcularImporteHorasExtras());
+
+	//calcular empleado que cobra menos por horas extras
+	e=empleadosQueMenosCobraPorHorasExtras();
+	System.out.println(x:"empleado que menos cobra por horas extras");
+	System.out.println(x:e);
+	Sytem.out.printf(format:"total horas extras :%2 & %n", args:e.calcularImporteHorasExtras());
+
+	//ordenar por salario de menor a mayor
+	OrdenarPorSalario();
+	System.out.println(x:"empleados ordenados por salario");
+	mostrarEmpleadosYSalario();
+
+
+  )
+}
+
+	//metodo para leer todos los empleados y guardarlos en el array
+	public static void leerEmpleados() throws IOException (
+	Empleado e;
+	String dni, nombre;
+	double sueldoBase;
+	int horasExtras;
+	double tipo IP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+package negativo;
+Public class Negativo;
+
+	import java.util.Scanner
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (source:System.in);
+		double N;
+		do{
+			System.out.print(s:"introduce un numero negativo")
+			while (!sc.hasNextDouble()) {
+				System.out.ptint(s:"valor no valido");
+			sc.next();
+
+		System.out.print(s:"introduce un numero negativo")
+		}
+		N=sc.nextDouble();
+		if(N=0){
+			System.out.println(x:"el numero debe ser negativo");
+		}
+		while (N >= 0);
+		System.out.println("numero entero:" - N)

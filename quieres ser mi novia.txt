@@ -1,0 +1,16 @@
+	import.java.until.Scanner;
+
+	Public class Main {
+
+	public static void main(String{} args) {
+
+	Scanner entrada =  new Scanner (System.in);
+
+	String pregunta;
+
+	System.out.println(x:"¿Quieres ser mi novi@?");
+	pregunta= sc.nextline ();
+	System.out.println( x:"La respuesta es")
+	
+
+	

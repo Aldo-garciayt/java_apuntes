@@ -1,0 +1,21 @@
+package agenda;
+public class Agenda {
+
+	public static void main (String[] args) {
+	int edad;
+	String nombre, direccion;
+
+	System.out.print(s:"introduce tu nombre");
+	nombre = sc.nextLine();
+	System.out.print(s:"introduce la edad");
+	edad= sc.nextInt();
+	sc.nextLine();//buffer de entrada
+
+	System.out.print(s"introduce tu direccion");
+	direccion =sc.nextLine();
+	System.out.println(x"Datos introducidos");
+	System.out.println("Nombre:" + nombre);
+
+	System.out.println("Edad:" + edad);
+	System.out.println("Direccion:" + direccion );
+		

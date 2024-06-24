@@ -1,0 +1,112 @@
+	Scanner entrada = new Scanner (System.in);
+
+	String alumno1;
+	String alumno2;
+	String alumno3;
+	double calificacion1a1;
+	double calificacion2a1;
+	double calificacion3a1;
+	double calificacion4a1;
+	double calificacion5a1;
+	double calificacion1a2;
+	double calificacion2a2;
+	double calificacion3a2;
+	double calificacion4a2;
+	double calificacion5a2;
+	double calificacion1a3;
+	double calificacion2a3;
+	double calificacion3a3;
+	double calificacion4a3;
+	double calificacion5a3;
+	double promedioalumno1;
+	double promedioalumno2;
+	double proemdioalumno3;
+	double promediofinal;
+
+	System.out.ptintln("nombre del alumno 1");
+	nombre_alumno = entrada.nextLine();
+
+	System.out.ptintln("primera calificacion:");
+	calificacion1a1 = entrada.nextdouble;
+
+	System.out.ptintln("segunda calificacion:");
+	calificacion2a1 = entrada.nextdouble;
+
+	System.out.ptintln("tercera calificacion:");
+	calificacion3a1 = entrada.nextdouble;
+	
+	System.out.ptintln("cuarta calificacion:");
+	calificacion4a1 = entrada.nextdouble;
+
+	System.out.ptintln("quinta calificacion:");
+	calificacion5a1 = entrada.nextdouble;
+
+	promedioalumno1 =(calificacion1a1 + calificacion2a1 + calificacion3a1 + calificacion4a1 + calificacion5a1)/5;
+
+
+	System.out.ptintln("nombre del alumno 2");
+	nombre_alumno = entrada.nextLine();
+
+	System.out.ptintln("primera calificacion:");
+	calificacion1a2 = entrada.nextdouble;
+
+	System.out.ptintln("segunda calificacion:");
+	calificacion2a2 = entrada.nextdouble;
+
+	System.out.ptintln("tercera calificacion:");
+	calificacion3a2 = entrada.nextdouble;
+	
+	System.out.ptintln("cuarta calificacion:");
+	calificacion4a2 = entrada.nextdouble;
+
+	System.out.ptintln("quinta calificacion:");
+	calificacion5a2 = entrada.nextdouble;
+
+	promedioalumno2 =(calificacion1a2 + calificacion2a2 + calificacion3a2 + calificacion4a2 + calificacion5a2)/5;
+
+	System.out.ptintln("nombre del alumno 3");
+	nombre_alumno = entrada.nextLine();
+
+	System.out.ptintln("primera calificacion:");
+	calificacion1a3 = entrada.nextdouble;
+
+	System.out.ptintln("segunda calificacion:");
+	calificacion2a3 = entrada.nextdouble;
+
+	System.out.ptintln("tercera calificacion:");
+	calificacion3a3 = entrada.nextdouble;
+	
+	System.out.ptintln("cuarta calificacion:");
+	calificacion4a3 = entrada.nextdouble;
+
+	System.out.ptintln("quinta calificacion:");
+	calificacion5a3 = entrada.nextdouble;
+
+	promedioalumno3 =(calificacion1a3 + calificacion2a3 + calificacion3a3 + calificacion4a3 + calificacion5a3)/5;
+
+	promedio final=(proedioalumno1 + promedioalumno2 + promedioalumno3)/3;
+
+	System.out.println(¨el promedio de los 3 alumnos es¨ + promediofinal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

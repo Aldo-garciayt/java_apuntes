@@ -1,0 +1,25 @@
+package agenda;
+public class Agenda {
+
+	public static void main (String[] args) {
+	int edad,telefono;
+	String nombre, direccion;
+	boleano genero;
+
+	System.out.print(s:"introduce tu nombre");
+	nombre = sc.nextLine();
+	System.out.print(s:"introduce la edad");
+	edad= sc.nextInt();
+	System.out.print(s:"Introduce tu genero")
+	genero= sc.nextInt();
+	sc.nextLine();//buffer de entrada
+
+	System.out.print(s"introduce tu direccion");
+	direccion =sc.nextLine();
+	System.out.println(x"Datos introducidos");
+	System.out.println("Nombre:" + nombre);
+	System.out.println("Edad:" + edad);
+	System.out.println("Direccion:" + direccion );
+	System.out.println("Genero:" + genero );
+	System.out.println("Telefono:" + telefono );
+		

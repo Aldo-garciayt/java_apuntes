@@ -1,0 +1,11 @@
+	public static void main(String¨{} args) {
+
+	Scanner sc = new Scanner ( source:System.in);
+	int numero;
+	System.out.println( x:"introducir un numero entero ");
+	numero =sc.nextInt();
+	System.out.println("numero introducido:"+ numero);
+	System.out.println("doble de " + numero + "->"+ 2*numero)
+	System.out.println("triple de " + numero + "->"+ 3*numero)
+
+	}

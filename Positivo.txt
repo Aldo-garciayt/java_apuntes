@@ -1,0 +1,21 @@
+package positivo;
+Public class Positivo;
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (source:System.in);
+		int N;
+		do{
+			System.out.print(s:"introduce un numero entero o positivo")
+			while (!sc.hasNextInt()) {
+				System.out.ptint(s:"valor no valido");
+			sc.next();
+
+		System.out.print(s:"introduce un numero entero positivo")
+		}
+		N=sc.nextInt();
+		if(N=0){
+			System.out.println(x:"el numero debe ser positivo");
+		}
+		while (N <= 0);
+		System.out.println("numero entero:" + N)
+			
